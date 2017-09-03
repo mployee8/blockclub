@@ -1,0 +1,24 @@
+ <div class="contactform container-padding form-group">
+            <form onsubmit="return checkform();" method="post" action="contact_form.php">
+              
+                  <!-- Contact Name -->
+            <p class="contact_name">
+              <input type="text" id="name" name="name" placeholder="Name*"/><br/>
+                  
+            </p>
+                  <!-- Contact Email -->
+            <p class="contact_email">
+              <input type="email" id="email" name="email" placeholder="Email*"/><br/>
+              </p>
+                  <!-- Contact Building Num -->
+            <p class="contact_comment">
+              <textarea id="comment" name="buildingnumber" placeholder="Your Enquiry*"></textarea>
+              </p>
+            
+                    <!-- Contact Submitt -->
+            <p class="contact_submit">
+              <button type="submit btn-color">Submit</button> 
+            </p>
+            <p><span class="contact_nb">* Denotes a required field</span></p>
+          </form>      
+          </div>
