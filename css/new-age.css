@@ -319,3 +319,9 @@ footer {
   .form-actions {
     text-align: center;
   }
+
+  body div form table {
+    position: relative;
+    left: 42px;
+    margin-bottom: 10px !important;
+  }
