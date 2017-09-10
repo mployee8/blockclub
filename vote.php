@@ -1,7 +1,7 @@
 <?php
 
 	$answer = '';
-	$myemail = 'solomon@solomontompkins.com';
+	$myemail = '136stblock200@gmail.com';
 	
 
 	if($_POST['yes'])
