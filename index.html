@@ -77,49 +77,49 @@
 
     <section class="bg-primary" id="membership-form">
 
-            <!-- Contact Form --> 
-<div class="container">    
-    <div class="row"> 
+            <!-- Contact Form -->
+<div class="container">
+    <div class="row">
       <div class="col-3"></div>
         <div class="col-6">
                <form method="post" action="contact.php">
                     <div class="form-group">
                       <label for="membername">Name</label>
                       <input type="text" class="form-control" id="membername" placeholder="Name" name="membername">
-                      
+
                     </div>
                     <div class="form-group">
                       <label for="buildingnumber">Building Number</label>
                       <input type="text" class="form-control" id="buildingnumber" placeholder="Building Number" name="buildingnumber">
-                      
+
                     </div>
                     <div class="form-group">
                       <label for="phonenumber">Phone Number</label>
                       <input type="tel" class="form-control" id="phonenumber" placeholder="phonenumber" name="phonenumber">
-                      
+
                     </div>
                     <div class="form-group">
                       <label for="memberemail">Email</label>
                       <input type="email" class="form-control" id="memberemail" placeholder="Email" name="memberemail">
-                      
+
                     </div>
                     <div class="row">
                       <div class="col-4"></div>
                       <div class="col-4"><input type="submit" class="btn btn-info" value="Submit"></div>
                       <div class="col-4"></div>
                     </div>
-                    
+
             </form>
-            
+
       </div>
-          
+
           </div>
-          
+
       <div class="col-3"></div>
     </div>
   </div>
 
-     
+
     </section>
 
     <section class="masthead" id="annualdues">
@@ -129,12 +129,22 @@
           <div class="col-8">
             <div class="container text-center">
               <p><h4>Please click the button below to pay your annual dues in the amount of &#36;25.00</h4></p>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <!--  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="X6QDNVRZC4TPE">
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>             
+                </form>  -->
+                <!-- PayPal Code Annual Dues -->
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="B9RPH68TXQ8EJ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+
+
             </div>
           </div>
           <div class="col-2"></div>
@@ -144,18 +154,18 @@
           </div>
         </div>
       </div>
-    
+
     </section>
 
-    
+
 <!-- Block Club Party -->
     <section class="contact bg-primary" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-6">
           <img src="img/airman.jpeg" class="img-responsive pull-left">
-            <p><h3>Vote Yes or No to hold the Inaugural Tuskegee Airman Dabney N. Montgomery Block Party on October 14, 2017 from 8am- 8pm</h3></p>  
-            <div class="container">          
+            <p><h3>Vote Yes or No to hold the Inaugural Tuskegee Airman Dabney N. Montgomery Block Party on October 14, 2017 from 8am- 8pm</h3></p>
+            <div class="container">
              <form method="post" action="vote.php">
                   <div class="form-check">
                     <label class="form-check-label">
@@ -165,7 +175,7 @@
                     <label class="form-check-label">
                       <input type="radio" class="form-check-input" name="no" id="noradio">No
                     </label>
-                      
+
                       <div class="container">
                           <div class="form-group">
                          <p><label for="textarea">Comments</label>
@@ -176,7 +186,7 @@
                           </p>
                         </div>
                       </div>
-                    </div>         
+                    </div>
                 </form>
                 </div>
           </div>
@@ -185,17 +195,19 @@
             <img src="img/redtail.jpeg" class="img-responsive">
             <div class="container">
               <p><h3>Click the button below to donate to the Inaugural Tuskegee Airman Dabney N. Montgomery Block Party.</h3> </p>
+              <!--- Donation Button -->
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="UELTHGN8CZVZJ">
+                  <input type="hidden" name="hosted_button_id" value="SSAXTTG8Q45NN">
                   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
 
+
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
 
     <section class="masthead" id="tshirt">
@@ -213,7 +225,7 @@
                       </div>
                       <div class="col-6">
                         <div class="container text-center pull-right">
-                          <p><h4>There will be T-shirts available. To purchase your T-shirt for &#36;5.00 in advance please click the button below!</h4></p> 
+                          <p><h4>There will be T-shirts available. To purchase your T-shirt for &#36;5.00 in advance please click the button below!</h4></p>
                         </div>
                       </div>
                   </div>
@@ -222,22 +234,24 @@
               <div class="col-6">
 
                     <div class="container">
-                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="UNKJRFQS65RYU">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
-                              <option value="Small">Small </option>
-                              <option value="Medium">Medium </option>
-                              <option value="Large">Large </option>
-                              <option value="XL">XL </option>
-                              <option value="XXL">XXL </option>
-                              <option value="2XXl">2XXl </option>
-                            </select> </td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier wayct to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                      <!-- Tshirt Button -->
+                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                          <input type="hidden" name="cmd" value="_s-xclick">
+                          <input type="hidden" name="hosted_button_id" value="HBEMWUGWPAKWN">
+                          <table>
+                          <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                          	<option value="Small">Small </option>
+                          	<option value="Medium">Medium </option>
+                          	<option value="Large">Large </option>
+                          	<option value="X-Large">X-Large </option>
+                          	<option value="XXL">XXL </option>
+                          	<option value="2XXL">2XXL </option>
+                          </select> </td></tr>
+                          </table>
+                          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
                     </div>
               </div>
                 </div>
@@ -245,7 +259,7 @@
           <div class="col-2"></div>
         </div>
       </div>
-      
+
     </section>
 
     <section class="bg-primary" id="nominations">
